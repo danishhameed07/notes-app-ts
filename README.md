@@ -44,15 +44,18 @@ Installing nvm, the Node Version Manager, and using it to install and manage mul
 
 You can install nodejs and npm easily with apt install, just run the following commands.
 
-`sudo apt update
-sudo apt install nodejs
-sudo apt install npm`
+`sudo apt update`
+
+`sudo apt install nodejs`
+
+`sudo apt install npm`
+
 
 - ##### Installing TypeScript 
 
 You can install TypeScript easily with npm install, just run the following commands.
 
-npm install -g typescript
+`npm install -g typescript`
 
 - #### Other Operating Systems
 
@@ -60,9 +63,9 @@ You can find more information about the installation on the [official Node.js we
 
 If the installation was successful, you should be able to run the following command:
 
-node --version
+`node --version`
 
-npm --version
+`npm --version`
 
 - #### Check Node Version
 
@@ -71,13 +74,13 @@ Node version should be v18 or v18+
 
 If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
 
-npm install npm -g
+`npm install npm -g`
 
 ## Install Packages
 
 At the root directory of the application, run the following command to install packages:
 
-npm install
+`npm install`
 
 ## Configure app
 
@@ -87,20 +90,20 @@ Add .env file at root of the project. Sample values available in .env.example fi
 
 Build project with following command:
 
-npm run build
+`npm run build`
 
 ## Running the project in Development mode
 
 Start the project in development mode with following command:
 
-npm run dev
+`npm run start:dev`
 
 
-## Running the project
+## Running the build
 
-Start running project with following command:
+Start running project with build using the following command:
 
-npm start
+`npm start`
 
 ## PORT
 
