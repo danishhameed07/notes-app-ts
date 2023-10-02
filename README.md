@@ -44,9 +44,9 @@ Installing nvm, the Node Version Manager, and using it to install and manage mul
 
 You can install nodejs and npm easily with apt install, just run the following commands.
 
-sudo apt update
+`sudo apt update
 sudo apt install nodejs
-sudo apt install npm
+sudo apt install npm`
 
 - ##### Installing TypeScript 
 
